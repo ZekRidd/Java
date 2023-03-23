@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class C01_forEach {
+public class C01_asList {
     public static void main(String[] args) {
 
         Integer[] arr = {1,3,4,5,2,4,5,6,7,8,2,3,1,3};

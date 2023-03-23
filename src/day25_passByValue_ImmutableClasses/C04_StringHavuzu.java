@@ -1,6 +1,6 @@
 package day25_passByValue_ImmutableClasses;
 
-public class StringHavuzu {
+public class C04_StringHavuzu {
     public static void main(String[] args) {
 
         String str1 = "Java";
@@ -26,6 +26,12 @@ public class StringHavuzu {
         /*
         == hem referansları hem değerleri karşılaştırma yaparken
         equals() sadece değerleri karşılaştırır
+
+        eger String havuzunda olup, hem referansı hem değeri aynı olan String'ler
+        == ile karşılaştırılarsa sonuc TRUE olur
+
+        ancak new keyword kullanılarak oluşturulan veya method kullanılan String'ler
+        == ile karşılaştırılırlarsa FALSE olur
          */
     }
 }
